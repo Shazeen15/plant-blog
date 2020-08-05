@@ -1,0 +1,98 @@
+body { 
+  background: url(caleb-george-5sF6NrB1MEg-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html {
+	height: 100%;
+}
+
+#title {
+	text-align: center;
+}
+.jumbotron {
+	background: #ffd8c2;
+	margin-top: 16%;
+}
+
+.navbar {
+	background-color: #ffd8c2;
+	border-color: #ffd8c2
+}
+
+/*changed the color of the text in the navbar*/
+.navbar-inverse .navbar-nav>li>a {
+	color: #f55d07;
+}
+
+/*styles the brand name in the navbar*/
+.navbar-inverse .navbar-brand {
+	color: #f55d07;
+	font-family: 'Permanent Marker', cursive;
+}
+
+p {
+	color: #f55d07;
+}
+
+/*changes the thickness of the text inside the jumbotron*/
+.jumbotron p {
+	font-weight: 400;
+}
+
+/*changes the color of the text in the navbar*/
+.navbar-inverse .navbar-text {
+	color: #f55d07;
+}
+
+/*this is for the pictures*/
+.image1 {
+  background-image: url(https://images.unsplash.com/photo-1547575361-e33e3dd5e9ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=698&q=80);
+}
+
+.image2 {
+  background-image: url(https://images.unsplash.com/photo-1590417975638-1f8d37cf22df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
+}
+
+.image3 {
+	background-image: url(https://images.unsplash.com/photo-1544501913-47bbc0511952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+/*changes the border colors for the pictures*/
+.thumbnail {
+	background-color: #ffd8c2;
+}
+
+.font1 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.font2 {
+	font-size: 30px;
+	font-weight: 400;
+	background-color: #ffd8c2;
+	padding: 5%;
+}
+
+hr {
+	width: 600px;
+	max-width: 90%;
+}
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px orange
+    ;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
